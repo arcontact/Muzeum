@@ -3,17 +3,17 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "pl.com.intercars.warsztaty"
-        version   = "1.2.1">
+        id        = "pl.elblag.muzeum"
+        version   = "1.0">
 
-    <name>Inter Cars sieć warsztatów</name>
+    <name>Muzeum</name>
 
     <description>
-        Inter Cars sieć warsztatów Q-Service, Perfect Service, Q-Service Premium.
+        Test aplikacji wideo
     </description>
 
 	<author href="http://www.intercars.eu" email="sekretariat@intercars.eu">
-        Inter Cars S. A.
+        Muzeum
 	</author>
 
     <!--
@@ -21,7 +21,6 @@
         The "device" permission is required for the 'deviceready' event.
     -->
     <feature name="http://api.phonegap.com/1.0/device" />
-	<feature name="http://api.phonegap.com/1.0/geolocation" />
 	
     <!--
         If you do not want any permissions to be added to your app, add the
@@ -52,12 +51,9 @@
         <gap:plugin name="Example" />
         A list of available plugins are available at https://build.phonegap.com/docs/plugins
     -->
-	<gap:plugin name="org.apache.cordova.splashscreen" version="0.2.7" />
 	<gap:plugin name="org.apache.cordova.network-information" version="0.2.7" />
 	<gap:plugin name="org.apache.cordova.inappbrowser" version="0.3.3" />
-	<gap:plugin name="org.apache.cordova.geolocation" version="0.3.7" />
 	<gap:plugin name="nl.x-services.plugins.toast" version="2.0" />
-	<gap:plugin name="de.appplant.cordova.plugin.email-composer" version="0.8.1" />
 	<gap:plugin name="org.apache.cordova.file" version="1.0.1" />
 	
     <!-- Define app icon for each platform. -->
